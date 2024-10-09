@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", system-ui;
+}
+body h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  margin: 30px;
+}
+body h2 {
+  font-family: "Young Serif", serif;
+  margin: 10px 30px;
+  font-size: 28px;
+  font-weight: 500;
+  color: hsl(14, 45%, 36%);
+}
+body span {
+  color: hsl(32, 9%, 34%);
+  font-size: 16px;
+  margin: 10px 10px;
+}
+.info section {
+  margin: 10px;
+}
+.info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+.info {
+  font-family: "Outfit", system-ui;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
+}
+.info ul {
+  font-size: 16px;
+  color: hsl(332, 51%, 32%);
+}
+.info li {
+  margin: 10px 25px;
+}
+body p {
+  
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px;
+}
+
+header img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ingredients li {
+  margin: 10px 40px;
+}
+
+
+.line {
+  margin: 30px;
+  border: 0.5px solid hsl(30, 18%, 87%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(30, 54%, 90%);
+}
